@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
 
 .palette {
     background-color: #fff;
@@ -12,7 +15,6 @@
     gap: 5px;
     flex-wrap: wrap;
 }
-
 
 .color-card {
     width: calc((100% - 20px) / 5);

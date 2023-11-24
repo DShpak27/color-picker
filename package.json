@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "source": "src/index.html",
+    "homepage": "https://dshpak27.github.io/color-picker/",
     "scripts": {
         "start": "parcel src/*.html --port 7777",
         "build": "parcel build src/*.html --public-url /color-picker/"
