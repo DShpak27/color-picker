@@ -1,0 +1,23 @@
+{
+    "name": "parcel",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel src/*.html --port 7777",
+        "build": "parcel build src/*.html --public-url /color-picker/"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@parcel/transformer-sass": "^2.10.3",
+        "parcel": "^2.10.3",
+        "parcel-transformer-hbs": "^1.0.4",
+        "posthtml-include": "^1.7.4"
+    },
+    "browserslist": "> 0.5%",
+    "dependencies": {
+        "modern-normalize": "^2.0.0"
+    }
+}
